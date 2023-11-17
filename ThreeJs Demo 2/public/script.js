@@ -56,8 +56,7 @@ const animate = function () {
 
     // Update the animation mixer
     if (mixer) {
-        mixer.update(0.01);
-
+        mixer.update(0.005);
     }
 
     renderer.render(scene, camera);
